@@ -63,15 +63,12 @@ const App = () => {
       });
   }, []);
 
-  console.log(typeof hero);
-
   const heroes = hero.map((hero) => [
     hero.id,
     hero.name,
     hero.images,
     hero.biography,
   ]);
-  console.log(heroes);
 
   return (
     <div className="App">

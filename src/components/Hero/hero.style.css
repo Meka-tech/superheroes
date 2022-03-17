@@ -40,7 +40,7 @@ img {
   align-self: center;
   box-shadow: 5px 5px 12px rgb(218, 217, 217);
 }
-@media only screen and (max-width: 465px) {
+@media only screen and (max-width: 375px) {
   .superhero-container {
     width: 100px;
   }

@@ -1,7 +1,7 @@
 {
   "name": "superheroes",
   "version": "0.1.0",
-  "homepage": "http://Meka-tech.github.io/superheroes",
+  "homepage": "https://Meka-tech.github.io/superheroes/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
