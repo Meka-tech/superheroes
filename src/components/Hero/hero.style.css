@@ -1,0 +1,54 @@
+.superhero-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: auto;
+
+  background-color: #ffffff;
+
+  border-radius: 15px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+  align-self: center;
+  overflow: visible;
+  margin: 15px;
+}
+
+.superhero-container h1 {
+  align-self: center;
+  text-align: center;
+  text-transform: uppercase;
+  width: 70%;
+  font-size: 20px;
+}
+img {
+  position: relative;
+  width: 100%;
+  align-self: center;
+  object-fit: cover;
+  object-position: 50% 50%;
+  border-radius: 15px;
+}
+.superhero-container:hover {
+  transition: all 0.5 ease;
+  transform: scale(1.02);
+  align-self: center;
+  box-shadow: 5px 5px 12px rgb(218, 217, 217);
+}
+@media only screen and (max-width: 465px) {
+  .superhero-container {
+    width: 100px;
+  }
+  .superhero-container h1 {
+    font-size: 8px;
+  }
+  .superhero-container h2 {
+    font-size: 10px;
+    font-weight: 600;
+  }
+}

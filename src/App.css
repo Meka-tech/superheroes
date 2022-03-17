@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.Title {
+  position: relative;
+  color: rgb(255, 0, 0);
+  padding-bottom: 30px;
+  padding-top: 30px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 60px;
+}
+.Btn {
+  border-radius: 15px;
+  background-color: red;
+  color: white;
+
+  min-width: fit-content;
+  font-size: 30px;
+  font-family: "Bangers", cursive;
+  font-family: "Bigelow Rules", cursive;
+}
+@media only screen and (max-width: 465px) {
+  .Title {
+    font-size: 40px;
+  }
+}
